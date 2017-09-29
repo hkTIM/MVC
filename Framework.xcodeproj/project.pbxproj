@@ -16,6 +16,17 @@
 		462E7D621F4E69D10028DC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462E7D601F4E69D10028DC43 /* LaunchScreen.storyboard */; };
 		462E7D6D1F4E69D10028DC43 /* FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E7D6C1F4E69D10028DC43 /* FrameworkTests.m */; };
 		462E7D781F4E69D10028DC43 /* FrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E7D771F4E69D10028DC43 /* FrameworkUITests.m */; };
+		462E7D8B1F4E6A2A0028DC43 /* MVCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E7D8A1F4E6A2A0028DC43 /* MVCController.m */; };
+		462E7D8E1F4E6B200028DC43 /* MVCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E7D8D1F4E6B200028DC43 /* MVCView.m */; };
+		462E7D911F4E6B360028DC43 /* MVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E7D901F4E6B360028DC43 /* MVCModel.m */; };
+		462E7D951F4E713B0028DC43 /* MVPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E7D941F4E713B0028DC43 /* MVPController.m */; };
+		462E7D981F4E715D0028DC43 /* Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E7D971F4E715D0028DC43 /* Presenter.m */; };
+		462E7D9B1F4E71700028DC43 /* MVPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E7D9A1F4E71700028DC43 /* MVPView.m */; };
+		462E7D9E1F4E719A0028DC43 /* MVPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E7D9D1F4E719A0028DC43 /* MVPModel.m */; };
+		462E7DA21F4E81960028DC43 /* MVVMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E7DA11F4E81960028DC43 /* MVVMController.m */; };
+		462E7DA51F4E81AC0028DC43 /* MVVMPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E7DA41F4E81AC0028DC43 /* MVVMPaper.m */; };
+		462E7DA81F4E81BB0028DC43 /* MVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E7DA71F4E81BB0028DC43 /* MVVMView.m */; };
+		462E7DAB1F4E81CA0028DC43 /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E7DAA1F4E81CA0028DC43 /* MVVMViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,28 @@
 		462E7D731F4E69D10028DC43 /* FrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		462E7D771F4E69D10028DC43 /* FrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameworkUITests.m; sourceTree = "<group>"; };
 		462E7D791F4E69D10028DC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462E7D891F4E6A2A0028DC43 /* MVCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVCController.h; sourceTree = "<group>"; };
+		462E7D8A1F4E6A2A0028DC43 /* MVCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCController.m; sourceTree = "<group>"; };
+		462E7D8C1F4E6B200028DC43 /* MVCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVCView.h; sourceTree = "<group>"; };
+		462E7D8D1F4E6B200028DC43 /* MVCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCView.m; sourceTree = "<group>"; };
+		462E7D8F1F4E6B360028DC43 /* MVCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVCModel.h; sourceTree = "<group>"; };
+		462E7D901F4E6B360028DC43 /* MVCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCModel.m; sourceTree = "<group>"; };
+		462E7D931F4E713B0028DC43 /* MVPController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPController.h; sourceTree = "<group>"; };
+		462E7D941F4E713B0028DC43 /* MVPController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPController.m; sourceTree = "<group>"; };
+		462E7D961F4E715D0028DC43 /* Presenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presenter.h; sourceTree = "<group>"; };
+		462E7D971F4E715D0028DC43 /* Presenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presenter.m; sourceTree = "<group>"; };
+		462E7D991F4E71700028DC43 /* MVPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPView.h; sourceTree = "<group>"; };
+		462E7D9A1F4E71700028DC43 /* MVPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPView.m; sourceTree = "<group>"; };
+		462E7D9C1F4E719A0028DC43 /* MVPModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPModel.h; sourceTree = "<group>"; };
+		462E7D9D1F4E719A0028DC43 /* MVPModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPModel.m; sourceTree = "<group>"; };
+		462E7DA01F4E81960028DC43 /* MVVMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMController.h; sourceTree = "<group>"; };
+		462E7DA11F4E81960028DC43 /* MVVMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMController.m; sourceTree = "<group>"; };
+		462E7DA31F4E81AC0028DC43 /* MVVMPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMPaper.h; sourceTree = "<group>"; };
+		462E7DA41F4E81AC0028DC43 /* MVVMPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMPaper.m; sourceTree = "<group>"; };
+		462E7DA61F4E81BB0028DC43 /* MVVMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMView.h; sourceTree = "<group>"; };
+		462E7DA71F4E81BB0028DC43 /* MVVMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMView.m; sourceTree = "<group>"; };
+		462E7DA91F4E81CA0028DC43 /* MVVMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMViewModel.h; sourceTree = "<group>"; };
+		462E7DAA1F4E81CA0028DC43 /* MVVMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +136,9 @@
 		462E7D4E1F4E69D10028DC43 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				462E7D9F1F4E81770028DC43 /* MVVM */,
+				462E7D851F4E69E20028DC43 /* MVC */,
+				462E7D921F4E70A40028DC43 /* MVP */,
 				462E7D521F4E69D10028DC43 /* AppDelegate.h */,
 				462E7D531F4E69D10028DC43 /* AppDelegate.m */,
 				462E7D551F4E69D10028DC43 /* ViewController.h */,
@@ -141,6 +177,49 @@
 				462E7D791F4E69D10028DC43 /* Info.plist */,
 			);
 			path = FrameworkUITests;
+			sourceTree = "<group>";
+		};
+		462E7D851F4E69E20028DC43 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				462E7D891F4E6A2A0028DC43 /* MVCController.h */,
+				462E7D8A1F4E6A2A0028DC43 /* MVCController.m */,
+				462E7D8C1F4E6B200028DC43 /* MVCView.h */,
+				462E7D8D1F4E6B200028DC43 /* MVCView.m */,
+				462E7D8F1F4E6B360028DC43 /* MVCModel.h */,
+				462E7D901F4E6B360028DC43 /* MVCModel.m */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		462E7D921F4E70A40028DC43 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				462E7D931F4E713B0028DC43 /* MVPController.h */,
+				462E7D941F4E713B0028DC43 /* MVPController.m */,
+				462E7D961F4E715D0028DC43 /* Presenter.h */,
+				462E7D971F4E715D0028DC43 /* Presenter.m */,
+				462E7D991F4E71700028DC43 /* MVPView.h */,
+				462E7D9A1F4E71700028DC43 /* MVPView.m */,
+				462E7D9C1F4E719A0028DC43 /* MVPModel.h */,
+				462E7D9D1F4E719A0028DC43 /* MVPModel.m */,
+			);
+			name = MVP;
+			sourceTree = "<group>";
+		};
+		462E7D9F1F4E81770028DC43 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				462E7DA01F4E81960028DC43 /* MVVMController.h */,
+				462E7DA11F4E81960028DC43 /* MVVMController.m */,
+				462E7DA31F4E81AC0028DC43 /* MVVMPaper.h */,
+				462E7DA41F4E81AC0028DC43 /* MVVMPaper.m */,
+				462E7DA61F4E81BB0028DC43 /* MVVMView.h */,
+				462E7DA71F4E81BB0028DC43 /* MVVMView.m */,
+				462E7DA91F4E81CA0028DC43 /* MVVMViewModel.h */,
+				462E7DAA1F4E81CA0028DC43 /* MVVMViewModel.m */,
+			);
+			name = MVVM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,8 +356,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				462E7D5D1F4E69D10028DC43 /* Framework.xcdatamodeld in Sources */,
+				462E7DA21F4E81960028DC43 /* MVVMController.m in Sources */,
+				462E7D951F4E713B0028DC43 /* MVPController.m in Sources */,
+				462E7DA51F4E81AC0028DC43 /* MVVMPaper.m in Sources */,
+				462E7D8E1F4E6B200028DC43 /* MVCView.m in Sources */,
+				462E7D9E1F4E719A0028DC43 /* MVPModel.m in Sources */,
 				462E7D571F4E69D10028DC43 /* ViewController.m in Sources */,
+				462E7D9B1F4E71700028DC43 /* MVPView.m in Sources */,
+				462E7DAB1F4E81CA0028DC43 /* MVVMViewModel.m in Sources */,
 				462E7D541F4E69D10028DC43 /* AppDelegate.m in Sources */,
+				462E7D981F4E715D0028DC43 /* Presenter.m in Sources */,
+				462E7D8B1F4E6A2A0028DC43 /* MVCController.m in Sources */,
+				462E7D911F4E6B360028DC43 /* MVCModel.m in Sources */,
+				462E7DA81F4E81BB0028DC43 /* MVVMView.m in Sources */,
 				462E7D511F4E69D10028DC43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
